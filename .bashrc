@@ -189,3 +189,7 @@ _Pacdiff() {
 
 eval "$(starship init bash)"
 alias vim="nvim"
+
+# exa alias
+alias ls="exa --long --group-directories-first"
+alias la="exa --long --group-directories-first -a"
